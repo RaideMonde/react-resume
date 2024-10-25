@@ -69,18 +69,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Rahul Singh`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong> 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training in <strong className="text-stone-100"> Bouldering </strong>,
+        lucking my <strong className="text-stone-100">banjo</strong>, or snowboarding{' '}
       </p>
     </>
   ),
@@ -108,12 +105,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of British Columbia, British Columbia Institute of Technology', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon},
   ],
 };
 
