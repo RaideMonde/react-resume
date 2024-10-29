@@ -111,7 +111,7 @@ export const aboutData: About = {
     {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
     {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of British Columbia,\n British Columbia Institute of Technology', Icon: AcademicCapIcon},
+    {label: 'Study', text: "University of British Columbia,\n British Columbia Institute of Technology", Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon},
   ],
 };
