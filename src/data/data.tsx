@@ -101,7 +101,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Software Quality Assurance Analyst with a background in DevOps, Databases, and programming. Software development experience from the University of British Columbia and the British Columbia Institute of Technology. Have previously developed apps for sponsors and have implemented a software pipeline with Jenkins and Microsoft Azure. `,
+  description: `Software Quality Assurance Analyst with a background in DevOps, 
+  Databases, and programming. Software development experience from the University 
+  of British Columbia and the British Columbia Institute of Technology. Have 
+  previously developed apps for sponsors and have implemented a software 
+  pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
     {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
