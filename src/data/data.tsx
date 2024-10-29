@@ -108,10 +108,10 @@ export const aboutData: About = {
   pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
     {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
     {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
-    {label: 'Study', text: "University of British Columbia,\n British Columbia Institute of Technology", Icon: AcademicCapIcon},
+    {label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon},
   ],
 };
@@ -128,12 +128,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'Enchiladen',
+        level: 7,
       },
     ],
   },
@@ -142,7 +138,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Typescript',
@@ -158,33 +154,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Django',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'MySQL',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Data Analysis',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Power BI',
+        level: 7,
       },
       {
-        name: 'Flutter',
+        name: 'Microsoft Excel',
+        level: 6,
+      },
+      {
+        name: 'Machine Learning',
         level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
