@@ -77,7 +77,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100"> Bouldering </strong>,
-        lucking my <strong className="text-stone-100">banjo</strong>, or snowboarding{' '}
+        plucking my <strong className="text-stone-100">Guitar</strong>, or snowboarding{' '}
       </p>
     </>
   ),
@@ -101,9 +101,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Software Quality Assurance Analyst with a background in DevOps, Databases, and programming. Software development experience from the University of British Columbia and the British Columbia Institute of Technology. Have previously developed apps for sponsors and have implemented a software pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
     {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
