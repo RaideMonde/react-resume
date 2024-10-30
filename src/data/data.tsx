@@ -52,6 +52,13 @@ export function getCurrentDate(separator=''){
   return `${year}${separator}${month<10?`0${month}`:`$month}`}${separator}${date}`
 }
 
+export function getCurrentAge(year: number){
+  let currentYear = new Date().getFullYear();
+  let birthYear = year;
+
+  return currentYear - birthYear
+}
+
 /**
  * Page meta data
  */
@@ -120,7 +127,7 @@ export const aboutData: About = {
   pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
     {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
-    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Age', text: getCurrentAge(1994).toString(), Icon: CalendarIcon},
     {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
     {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
     {label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon},
