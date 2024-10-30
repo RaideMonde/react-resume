@@ -45,9 +45,7 @@ import {
  */
 export function getCurrentAge(year: number){
   let currentYear = new Date().getFullYear();
-  let birthYear = year;
-
-  return currentYear - birthYear
+  return currentYear - year
 }
 
 /**
