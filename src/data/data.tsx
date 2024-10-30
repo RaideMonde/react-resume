@@ -41,17 +41,8 @@ import {
 } from './dataDef';
 
 /**
- * Date function
+ * Age function
  */
-export function getCurrentDate(separator=''){
-  let newDate = new Date()
-  let date = newDate.getDate();
-  let month = newDate.getMonth() + 1;
-  let year = newDate.getFullYear();
-
-  return `${year}${separator}${month<10?`0${month}`:`$month}`}${separator}${date}`
-}
-
 export function getCurrentAge(year: number){
   let currentYear = new Date().getFullYear();
   let birthYear = year;
@@ -149,7 +140,7 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Enchiladen',
+        name: 'Elantrian',
         level: 7,
       },
     ],
@@ -166,8 +157,8 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'HTML',
+        level: 7,
       },
     ],
   },
@@ -193,7 +184,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Power BI',
-        level: 7,
+        level: 8,
       },
       {
         name: 'Microsoft Excel',
@@ -284,16 +275,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'April 2019',
+    location: 'University of British Columbia',
+    title: 'Bachelor\'s Degree: Cognitive Systems',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2022',
+    location: 'British Columbia Institute of Technology',
+    title: 'Diploma: Computer Information Technology',
+    content: <p>rience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
