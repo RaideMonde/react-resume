@@ -288,24 +288,27 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'July 2022 - Present',
+    location: 'Enkaur Productions',
+    title: 'Digital Image Technician (Freelance)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Assisted lead editor in organizing hundreds of hours of footage. Managed video and audio 
+        files for various projects, including TV Series, documentaries, and online content. Liaised 
+        with department heads to ensure smooth delivery to platforms. 
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2018 - May 2019',
+    location: 'Centre for Gambling Research: Vancouver',
+    title: 'Research Assistant (Volunteer)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Administered gambling research experiments to collect data on skin conductance
+        and grip strength. Analyzed collected data across 20+ participants and 50+ sessions
+        to answer research questions. Then submitted a oral and written report summarizing
+        the results of the study.
       </p>
     ),
   },
