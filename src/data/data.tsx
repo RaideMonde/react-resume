@@ -300,6 +300,19 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
+    date: 'January 2022 - June 2023',
+    location: 'British Columbia Institute of Technology',
+    title: 'Developer (Industry Projects)',
+    content: (
+      <p>
+        Communicated with clients to gather project requirements, establish expectations,
+        and discuss the scope of the project. Used technologies such as Git, Trello, 
+        and Slack in order to manage the team and project. Built 5+ mock applications to 
+        demonstrate potential solutions, and hosted projects on AWS and Azure.
+      </p>
+    ),
+  },
+  {
     date: 'May 2018 - May 2019',
     location: 'Centre for Gambling Research: Vancouver',
     title: 'Research Assistant (Volunteer)',
