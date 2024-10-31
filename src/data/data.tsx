@@ -273,16 +273,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2019',
-    location: 'University of British Columbia',
-    title: 'Bachelor\'s Degree: Cognitive Systems',
-    content: <p>Multi-disciplinary program combining Computer Science, Linguistics, Philosophy, and Psychology with an emphasis on research.</p>,
-  },
-  {
     date: 'April 2022',
     location: 'British Columbia Institute of Technology',
     title: 'Diploma: Computer Information Technology',
     content: <p>A program focused on IT development with an emphasis on current techonologies and trends.</p>,
+  },
+  {
+    date: 'April 2019',
+    location: 'University of British Columbia',
+    title: 'Bachelor\'s Degree: Cognitive Systems',
+    content: <p>Multi-disciplinary program combining Computer Science, Linguistics, Philosophy, and Psychology with an emphasis on research.</p>,
   },
 ];
 
@@ -309,6 +309,19 @@ export const experience: TimelineItem[] = [
         and grip strength. Analyzed collected data across 20+ participants and 50+ sessions
         to answer research questions. Then submitted a oral and written report summarizing
         the results of the study.
+      </p>
+    ),
+  },
+  {
+    date: 'November 2012 - April 2015',
+    location: 'Hewer Home Hardware: Vancouver',
+    title: 'Stock Person',
+    content: (
+      <p>
+        Communicated product knowledge for hundreds of items to customers. Collaborated 
+        with customers to identify and solve their problems. Unloaded and recieved
+        product from vendors 2+ times a week. Stored and stocked inventory for ease
+        of purchase. 
       </p>
     ),
   },
