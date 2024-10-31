@@ -276,13 +276,13 @@ export const education: TimelineItem[] = [
     date: 'April 2019',
     location: 'University of British Columbia',
     title: 'Bachelor\'s Degree: Cognitive Systems',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Multi-disciplinary program combining Computer Science, Linguistics, Philosophy, and Psychology with an emphasis on research.</p>,
   },
   {
     date: 'April 2022',
     location: 'British Columbia Institute of Technology',
     title: 'Diploma: Computer Information Technology',
-    content: <p>rience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>A program focused on IT development with an emphasis on current techonologies and trends.</p>,
   },
 ];
 
