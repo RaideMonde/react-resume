@@ -370,7 +370,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Give me a job! Just email me and let me know what I should learn and then pay me for it!',
+  description: 'Give me a job! \n Just email me and let me know what I should learn and then pay me for it!',
   items: [
     {
       type: ContactType.Email,
