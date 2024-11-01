@@ -321,7 +321,7 @@ export const experience: TimelineItem[] = [
         Administered gambling research experiments to collect data on skin conductance
         and grip strength. Analyzed collected data across 20+ participants and 50+ sessions
         to answer research questions. Then submitted a oral and written report summarizing
-        the results of the study.
+        the results of the study. 
       </p>
     ),
   },
@@ -374,23 +374,25 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'i.am.rahul@live.com',
+      href: 'mailto:i.am.rahul@live.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Vancouver BC, Canada',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
+    /*
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
       href: 'https://www.instagram.com/tbakerx/',
     },
+    **/
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'RaideMonde',
+      href: 'https://github.com/RaideMonde',
     },
   ],
 };
