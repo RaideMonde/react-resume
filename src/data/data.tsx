@@ -82,10 +82,11 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong> 
-      </p>
+        ADD MORE INFORMATION MAYBE 
+      </p> 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me 
-        training in <strong className="text-stone-100">Bouldering</strong>,
+        When I'm not working, you can find me 
+        practicing my <strong className="text-stone-100">Bouldering</strong>,
         plucking my <strong className="text-stone-100">Guitar</strong>,
         or attempting to <strong className="text-stone-100">Snowboarding</strong>{' '}
       </p>
@@ -347,18 +348,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Jasleen Kaur',
+      text: 'This guy is an incredible worker. He was great to have on set and everyone loved his enthusiasm. Even if he was mildl snarky at times.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Charankanwal Kaur',
+      text: 'He\'s alright I guess. He could probably stand to wash the dishes more often.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Mother',
+      text: 'I love my Son. He is the apple of my eye. I need him to get married.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -370,7 +371,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Give me a job! \n Just email me and let me know what I should learn and then pay me for it!',
+  description: 'Email me and give me a job!',
   items: [
     {
       type: ContactType.Email,
@@ -385,8 +386,8 @@ export const contact: ContactSection = {
     /*
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@stupiduselessmeta',
+      href: 'https://www.instagram.com/stupiduselessmeta/',
     },
     **/
     {
