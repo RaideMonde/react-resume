@@ -380,7 +380,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Vancouver BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://maps.app.goo.gl/m6iLuvKMtCVwC338A',
     },
     /*
     {
