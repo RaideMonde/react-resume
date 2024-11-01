@@ -82,10 +82,11 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong> 
-      </p>
+        ADD MORE INFORMATION MAYBE 
+      </p> 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me 
-        training in <strong className="text-stone-100">Bouldering</strong>,
+        When I'm not working, you can find me 
+        practicing my <strong className="text-stone-100">Bouldering</strong>,
         plucking my <strong className="text-stone-100">Guitar</strong>,
         or attempting to <strong className="text-stone-100">Snowboarding</strong>{' '}
       </p>
@@ -385,8 +386,8 @@ export const contact: ContactSection = {
     /*
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@stupiduselessmeta',
+      href: 'https://www.instagram.com/stupiduselessmeta/',
     },
     **/
     {
