@@ -117,12 +117,12 @@ export const aboutData: About = {
   previously developed apps for sponsors and have implemented a software 
   pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
-    { label: 'Location', text: 'Vancouver, BC', Icon: MapIcon },
-    { label: 'Age', text: getCurrentAge(1994).toString(), Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Canadian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon },
-    { label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon },
+    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
+    {label: 'Age', text: getCurrentAge(1994).toString(), Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
+    {label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon},
   ],
 };
 
