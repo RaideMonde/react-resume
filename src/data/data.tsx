@@ -401,6 +401,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/RaideMonde' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/rahul-singh-van/' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RaideMonde'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/rahul-singh-van/'},
 ];
