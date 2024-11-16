@@ -81,14 +81,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong> 
-        ADD MORE INFORMATION MAYBE 
-      </p> 
+        I'm a Vancouver based <strong className="text-stone-100"> IT Specialist</strong>
+      </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        When I'm not working, you can find me 
-        practicing my <strong className="text-stone-100">Bouldering</strong>,
-        plucking my <strong className="text-stone-100">Guitar</strong>,
-        or attempting to <strong className="text-stone-100">Snowboarding</strong>{' '}
+        When I'm not working, you can find me
+        <strong className="text-stone-100"> Bouldering</strong>,
+        <strong className="text-stone-100"> Drumming</strong>,
+        <strong className="text-stone-100"> Snowboarding</strong>{' '}
       </p>
     </>
   ),
@@ -118,12 +117,12 @@ export const aboutData: About = {
   previously developed apps for sponsors and have implemented a software 
   pipeline with Jenkins and Microsoft Azure. `,
   aboutItems: [
-    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
-    {label: 'Age', text: getCurrentAge(1994).toString(), Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon},
-    {label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon},
+    { label: 'Location', text: 'Vancouver, BC', Icon: MapIcon },
+    { label: 'Age', text: getCurrentAge(1994).toString(), Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Canadian', Icon: FlagIcon },
+    { label: 'Interests', text: 'Board Games, Bouldering, Reading', Icon: SparklesIcon },
+    { label: 'Study', text: "University of British Columbia, \n British Columbia Institute of Technology", Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Cheerfully Looking', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -294,9 +293,9 @@ export const experience: TimelineItem[] = [
     title: 'Digital Image Technician (Freelance)',
     content: (
       <p>
-        Assisted lead editor in organizing hundreds of hours of footage. Managed video and audio 
-        files for various projects, including TV Series, documentaries, and online content. Liaised 
-        with department heads to ensure smooth delivery to platforms. 
+        Assisted lead editor in organizing hundreds of hours of footage. Managed video and audio
+        files for various projects, including TV Series, documentaries, and online content. Liaised
+        with department heads to ensure smooth delivery to platforms.
       </p>
     ),
   },
@@ -307,8 +306,8 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Communicated with clients to gather project requirements, establish expectations,
-        and discuss the scope of the project. Used technologies such as Git, Trello, 
-        and Slack in order to manage the team and project. Built 5+ mock applications to 
+        and discuss the scope of the project. Used technologies such as Git, Trello,
+        and Slack in order to manage the team and project. Built 5+ mock applications to
         demonstrate potential solutions, and hosted projects on AWS and Azure.
       </p>
     ),
@@ -322,7 +321,7 @@ export const experience: TimelineItem[] = [
         Administered gambling research experiments to collect data on skin conductance
         and grip strength. Analyzed collected data across 20+ participants and 50+ sessions
         to answer research questions. Then submitted a oral and written report summarizing
-        the results of the study. 
+        the results of the study.
       </p>
     ),
   },
@@ -332,10 +331,10 @@ export const experience: TimelineItem[] = [
     title: 'Stock Person',
     content: (
       <p>
-        Communicated product knowledge for hundreds of items to customers. Collaborated 
+        Communicated product knowledge for hundreds of items to customers. Collaborated
         with customers to identify and solve their problems. Unloaded and recieved
         product from vendors 2+ times a week. Stored and stocked inventory for ease
-        of purchase. 
+        of purchase.
       </p>
     ),
   },
@@ -402,6 +401,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RaideMonde'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/rahul-singh-van/'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/RaideMonde' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/rahul-singh-van/' },
 ];
