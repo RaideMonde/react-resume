@@ -3,6 +3,7 @@ import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
 import Socials from '../Socials';
+
 const HomeWebsite = "https://react-resume-xi-seven.vercel.app/"
 
 const Footer: FC = memo(() => (
